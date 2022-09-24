@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/EmptyOS.dir/EmptyApplication.cpp.o -o EmptyOS  ../Framework/Common/libCommon.a 
