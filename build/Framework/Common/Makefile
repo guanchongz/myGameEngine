@@ -154,6 +154,30 @@ BaseApplication.cpp.s:
 	cd /home/guan/myGameEngine/build && $(MAKE) $(MAKESILENT) -f Framework/Common/CMakeFiles/Common.dir/build.make Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.s
 .PHONY : BaseApplication.cpp.s
 
+GraphicsManager.o: GraphicsManager.cpp.o
+.PHONY : GraphicsManager.o
+
+# target to build an object file
+GraphicsManager.cpp.o:
+	cd /home/guan/myGameEngine/build && $(MAKE) $(MAKESILENT) -f Framework/Common/CMakeFiles/Common.dir/build.make Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o
+.PHONY : GraphicsManager.cpp.o
+
+GraphicsManager.i: GraphicsManager.cpp.i
+.PHONY : GraphicsManager.i
+
+# target to preprocess a source file
+GraphicsManager.cpp.i:
+	cd /home/guan/myGameEngine/build && $(MAKE) $(MAKESILENT) -f Framework/Common/CMakeFiles/Common.dir/build.make Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.i
+.PHONY : GraphicsManager.cpp.i
+
+GraphicsManager.s: GraphicsManager.cpp.s
+.PHONY : GraphicsManager.s
+
+# target to generate assembly for a file
+GraphicsManager.cpp.s:
+	cd /home/guan/myGameEngine/build && $(MAKE) $(MAKESILENT) -f Framework/Common/CMakeFiles/Common.dir/build.make Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.s
+.PHONY : GraphicsManager.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -190,6 +214,9 @@ help:
 	@echo "... BaseApplication.o"
 	@echo "... BaseApplication.i"
 	@echo "... BaseApplication.s"
+	@echo "... GraphicsManager.o"
+	@echo "... GraphicsManager.i"
+	@echo "... GraphicsManager.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

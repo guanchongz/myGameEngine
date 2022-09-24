@@ -83,10 +83,24 @@ Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Common.dir/BaseApplication.cpp.s"
 	cd /home/guan/myGameEngine/build/Framework/Common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/myGameEngine/Framework/Common/BaseApplication.cpp -o CMakeFiles/Common.dir/BaseApplication.cpp.s
 
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o: Framework/Common/CMakeFiles/Common.dir/flags.make
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o: ../Framework/Common/GraphicsManager.cpp
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o: Framework/Common/CMakeFiles/Common.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/myGameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o"
+	cd /home/guan/myGameEngine/build/Framework/Common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o -MF CMakeFiles/Common.dir/GraphicsManager.cpp.o.d -o CMakeFiles/Common.dir/GraphicsManager.cpp.o -c /home/guan/myGameEngine/Framework/Common/GraphicsManager.cpp
+
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Common.dir/GraphicsManager.cpp.i"
+	cd /home/guan/myGameEngine/build/Framework/Common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/myGameEngine/Framework/Common/GraphicsManager.cpp > CMakeFiles/Common.dir/GraphicsManager.cpp.i
+
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Common.dir/GraphicsManager.cpp.s"
+	cd /home/guan/myGameEngine/build/Framework/Common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/myGameEngine/Framework/Common/GraphicsManager.cpp -o CMakeFiles/Common.dir/GraphicsManager.cpp.s
+
 Framework/Common/CMakeFiles/Common.dir/main.cpp.o: Framework/Common/CMakeFiles/Common.dir/flags.make
 Framework/Common/CMakeFiles/Common.dir/main.cpp.o: ../Framework/Common/main.cpp
 Framework/Common/CMakeFiles/Common.dir/main.cpp.o: Framework/Common/CMakeFiles/Common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/myGameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Framework/Common/CMakeFiles/Common.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/myGameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Framework/Common/CMakeFiles/Common.dir/main.cpp.o"
 	cd /home/guan/myGameEngine/build/Framework/Common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Framework/Common/CMakeFiles/Common.dir/main.cpp.o -MF CMakeFiles/Common.dir/main.cpp.o.d -o CMakeFiles/Common.dir/main.cpp.o -c /home/guan/myGameEngine/Framework/Common/main.cpp
 
 Framework/Common/CMakeFiles/Common.dir/main.cpp.i: cmake_force
@@ -100,16 +114,18 @@ Framework/Common/CMakeFiles/Common.dir/main.cpp.s: cmake_force
 # Object files for target Common
 Common_OBJECTS = \
 "CMakeFiles/Common.dir/BaseApplication.cpp.o" \
+"CMakeFiles/Common.dir/GraphicsManager.cpp.o" \
 "CMakeFiles/Common.dir/main.cpp.o"
 
 # External object files for target Common
 Common_EXTERNAL_OBJECTS =
 
 Framework/Common/libCommon.a: Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.o
+Framework/Common/libCommon.a: Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o
 Framework/Common/libCommon.a: Framework/Common/CMakeFiles/Common.dir/main.cpp.o
 Framework/Common/libCommon.a: Framework/Common/CMakeFiles/Common.dir/build.make
 Framework/Common/libCommon.a: Framework/Common/CMakeFiles/Common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guan/myGameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libCommon.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guan/myGameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libCommon.a"
 	cd /home/guan/myGameEngine/build/Framework/Common && $(CMAKE_COMMAND) -P CMakeFiles/Common.dir/cmake_clean_target.cmake
 	cd /home/guan/myGameEngine/build/Framework/Common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Common.dir/link.txt --verbose=$(VERBOSE)
 

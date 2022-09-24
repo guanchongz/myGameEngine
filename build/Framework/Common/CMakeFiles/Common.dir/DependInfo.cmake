@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/guan/myGameEngine/Framework/Common/BaseApplication.cpp" "Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.o" "gcc" "Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.o.d"
+  "/home/guan/myGameEngine/Framework/Common/GraphicsManager.cpp" "Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o" "gcc" "Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o.d"
   "/home/guan/myGameEngine/Framework/Common/main.cpp" "Framework/Common/CMakeFiles/Common.dir/main.cpp.o" "gcc" "Framework/Common/CMakeFiles/Common.dir/main.cpp.o.d"
   )
 

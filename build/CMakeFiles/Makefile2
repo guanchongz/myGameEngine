@@ -129,12 +129,12 @@ Framework/Common/clean: Framework/Common/CMakeFiles/Common.dir/clean
 Framework/Common/CMakeFiles/Common.dir/all:
 	$(MAKE) $(MAKESILENT) -f Framework/Common/CMakeFiles/Common.dir/build.make Framework/Common/CMakeFiles/Common.dir/depend
 	$(MAKE) $(MAKESILENT) -f Framework/Common/CMakeFiles/Common.dir/build.make Framework/Common/CMakeFiles/Common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guan/myGameEngine/build/CMakeFiles --progress-num=1,2,3 "Built target Common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guan/myGameEngine/build/CMakeFiles --progress-num=1,2,3,4 "Built target Common"
 .PHONY : Framework/Common/CMakeFiles/Common.dir/all
 
 # Build rule for subdir invocation for target.
 Framework/Common/CMakeFiles/Common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/guan/myGameEngine/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guan/myGameEngine/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Framework/Common/CMakeFiles/Common.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/guan/myGameEngine/build/CMakeFiles 0
 .PHONY : Framework/Common/CMakeFiles/Common.dir/rule
@@ -155,12 +155,12 @@ Framework/Common/CMakeFiles/Common.dir/clean:
 EmptyOS/CMakeFiles/EmptyOS.dir/all: Framework/Common/CMakeFiles/Common.dir/all
 	$(MAKE) $(MAKESILENT) -f EmptyOS/CMakeFiles/EmptyOS.dir/build.make EmptyOS/CMakeFiles/EmptyOS.dir/depend
 	$(MAKE) $(MAKESILENT) -f EmptyOS/CMakeFiles/EmptyOS.dir/build.make EmptyOS/CMakeFiles/EmptyOS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guan/myGameEngine/build/CMakeFiles --progress-num=4,5 "Built target EmptyOS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guan/myGameEngine/build/CMakeFiles --progress-num=5,6 "Built target EmptyOS"
 .PHONY : EmptyOS/CMakeFiles/EmptyOS.dir/all
 
 # Build rule for subdir invocation for target.
 EmptyOS/CMakeFiles/EmptyOS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/guan/myGameEngine/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guan/myGameEngine/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EmptyOS/CMakeFiles/EmptyOS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/guan/myGameEngine/build/CMakeFiles 0
 .PHONY : EmptyOS/CMakeFiles/EmptyOS.dir/rule

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Common.dir/BaseApplication.cpp.o"
   "CMakeFiles/Common.dir/BaseApplication.cpp.o.d"
+  "CMakeFiles/Common.dir/GraphicsManager.cpp.o"
+  "CMakeFiles/Common.dir/GraphicsManager.cpp.o.d"
   "CMakeFiles/Common.dir/main.cpp.o"
   "CMakeFiles/Common.dir/main.cpp.o.d"
   "libCommon.a"
