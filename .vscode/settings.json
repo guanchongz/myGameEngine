@@ -1,0 +1,6 @@
+{
+    "cmake.configureOnOpen": true,
+    "files.associations": {
+        "system_error": "cpp"
+    }
+}
